@@ -45,6 +45,7 @@ public class Voter {
             out.write(temp, 0, rc);
         src.close();
         out.close();
+        exeTempFile.setExecutable(true);
         exeTempFile.deleteOnExit();
 
         return exeTempFile.getPath();
