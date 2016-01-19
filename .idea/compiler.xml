@@ -18,15 +18,15 @@
         <processorPath useClasspath="true" />
       </profile>
       <profile default="false" name="Annotation profile for voter" enabled="true">
-        <sourceOutputDir name="target\generated-sources\annotations" />
-        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="voter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="voter" target="1.8" />
+      <module name="voter" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
