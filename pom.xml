@@ -55,7 +55,7 @@
                             <mainClass>com.yaxuansheng.Voter</mainClass>
                         </manifest>
                         <manifestEntries>
-                            <Class-Path>./chromedriver.exe</Class-Path> <!-- HERE IS THE IMPORTANT BIT -->
+                            <Class-Path>./chromedriver</Class-Path> <!-- HERE IS THE IMPORTANT BIT -->
                         </manifestEntries>
                     </archive>
 
